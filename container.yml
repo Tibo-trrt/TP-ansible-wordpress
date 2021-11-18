@@ -1,0 +1,6 @@
+---
+- name: "Install apache"
+  import_playbook: apache.yml
+
+- name: "Install mysql"
+  import_playbook: mysql.yml
